@@ -1,3 +1,7 @@
+#定义用户默认的连接环境
+spring:
+  profiles:
+    active: dev
 --- #分割线  8000 定义为prod 8005端口定义dev
 server:
   port: 8000
